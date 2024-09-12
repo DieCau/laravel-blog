@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     public function __invoke()
     {
-        return "Bienvenido a la Pagina Principal!";
+        // Retorna la Vista especificada por medio de un helper 'view' (funcion de uso interno)
+        return view('home');
     }
 }

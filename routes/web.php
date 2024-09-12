@@ -6,8 +6,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 
-// Cuando solo tenemos __invoke en el metodo NO hace falta pasar el nombre como tal
-Route::get('/', [HomeController::class]);
+// Cuando solo tenemos __invoke en el metodo NO hace falta pasar el nombre como tal, sin los [ ]
+Route::get('/', HomeController::class);
 
 // Pasamos 2 parámetros: la clase y el método
 Route::get('/posts', [PostController::class, 'index']);
