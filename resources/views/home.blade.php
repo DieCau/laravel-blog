@@ -11,14 +11,15 @@
 
 <body>
     <div class="max-w-4xl mx-auto px-4">
-        <h1>Bienvenido a la Pagina Principal!</h1>
-        <x-alert>
-            {{-- <x-slot name="title">
+        <x-alert2 type="success" class="mb-4">
+            <x-slot name="title">
                 Titulo de la alerta
-            </x-slot> --}}
+            </x-slot>
 
             Contenido de la alerta!
-        </x-alert>
+        </x-alert2>
+
+        <p>Hola Mundo</p>
     </div>
 </body>
 
