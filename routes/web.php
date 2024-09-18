@@ -7,6 +7,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 use App\Models\Post;
 
+// Comentarios
 // Cuando solo tenemos __invoke en el metodo NO hace falta pasar el nombre como tal, sin los [ ]
 Route::get('/', HomeController::class);
 
